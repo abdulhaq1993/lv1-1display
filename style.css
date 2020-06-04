@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+  background: rgb(236, 233, 229);
+  text-align: center;
+  
+}
+button{
+     color: white;
+     background: #050608;
+     font-family: 'Courier New', Courier, monospace;
+     width: 200px;
+     height: 40px;
+     width: 20em;
+     margin: 5em;
+}
+img{
+    display: none;
+    margin: auto;
+}
+button:hover+img{
+    display: block;
+}
